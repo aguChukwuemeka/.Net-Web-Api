@@ -1,0 +1,33 @@
+GET http://localhost:5137/todos
+
+###
+
+GET http://localhost:5137/todos/2
+
+###
+
+POST http://localhost:5137/todos
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Write Another Demo",
+    "dueDate": "2025-12-31",
+    "isCompleted": false
+}
+
+###
+
+PUT http://localhost:5137/todos/2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "Name": "Write Rename Demo",
+    "DueDate": "2025-12-21",
+    "IsCompleted": true
+}
+
+###
+
+DELETE http://localhost:5137/todos/2
