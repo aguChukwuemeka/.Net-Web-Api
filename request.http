@@ -1,4 +1,4 @@
-GET http://localhost:5137/todos
+ GET http://localhost:5137/todos
 
 ###
 
@@ -10,8 +10,8 @@ POST http://localhost:5137/todos
 Content-Type: application/json
 
 {
-    "id": 2,
-    "name": "Write Another Demo",
+    "id": 1,
+    "name": "Write Demo",
     "dueDate": "2025-12-31",
     "isCompleted": false
 }
@@ -31,3 +31,8 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:5137/todos/2
+
+###
+
+# Call the Middleware Rewrite options
+GET http://localhost:5137/task/1

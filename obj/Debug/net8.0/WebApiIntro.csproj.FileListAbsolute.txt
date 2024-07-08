@@ -48,3 +48,4 @@
 /Users/user/Source/dotNet/WebApiIntro/WebApiIntro/obj/Debug/net8.0/WebApiIntro.pdb
 /Users/user/Source/dotNet/WebApiIntro/WebApiIntro/obj/Debug/net8.0/WebApiIntro.genruntimeconfig.cache
 /Users/user/Source/dotNet/WebApiIntro/WebApiIntro/obj/Debug/net8.0/ref/WebApiIntro.dll
+/Users/user/Source/dotNet/WebApiIntro/WebApiIntro/obj/Debug/net8.0/WebApiIntro.sourcelink.json
